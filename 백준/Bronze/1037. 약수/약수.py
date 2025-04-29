@@ -1,6 +1,10 @@
-count = int(input())
-N_count = list(map(int, input().split()))
+N = int(input())
 
-N = max(N_count) * min(N_count)
+num = list(map(int, input().split( )))
+
+N = max(num) * min(num)
 
 print(N)
+
+
+
