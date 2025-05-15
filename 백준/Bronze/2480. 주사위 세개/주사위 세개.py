@@ -8,3 +8,4 @@ elif Dice[1] == Dice[2]:
     print(1000 + (Dice[1]*100))
 else:
     print(max(Dice)*100)
+    
